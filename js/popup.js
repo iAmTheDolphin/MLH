@@ -27,7 +27,7 @@ chrome.tabs.query({}, function (tabs) {
 
                 numRemoved++;
                 if (numRemoved === tabs.length) {
-                    chrome.tabs.create({url: "https://en.wikipedia.org/wiki/Harriet_Tubman"});
+                    //chrome.tabs.create({url: "https://en.wikipedia.org/wiki/Harriet_Tubman"});
                 }
             }
         });
@@ -48,7 +48,7 @@ chrome.tabs.query({}, function (tabs) {
 
                 numRemoved++;
                 if (numRemoved === tabs.length) {
-                    chrome.tabs.create({url: "https://en.wikipedia.org/wiki/Harriet_Tubman"});
+                    //chrome.tabs.create({url: "https://en.wikipedia.org/wiki/Harriet_Tubman"});
                 }
             }
 
